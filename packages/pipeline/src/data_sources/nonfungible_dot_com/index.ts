@@ -13,7 +13,7 @@ const MAX_TRADES_PER_QUERY = 100;
 // https://nonfungible.com/
 export const knownPublishers = [
     'axieinfinity',
-    // 'cryptokitties', // disabled until we get updated initial dump that isn't truncated
+    'cryptokitties',
     'cryptopunks',
     'cryptovoxels',
     'decentraland',
