@@ -278,7 +278,7 @@ describe('Coordinator tests', () => {
                         [approval.signature],
                         { from: owner },
                     ),
-                    RevertReason.InvalidSender,
+                    RevertReason.InvalidOrigin,
                 );
             });
         }
@@ -427,7 +427,7 @@ describe('Coordinator tests', () => {
                         [approval.signature],
                         { from: owner },
                     ),
-                    RevertReason.InvalidSender,
+                    RevertReason.InvalidOrigin,
                 );
             });
         }
